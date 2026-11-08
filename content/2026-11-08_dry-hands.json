@@ -1,0 +1,90 @@
+{
+  "id": "2026-11-08_dry-hands",
+  "topic": "손 씻기 잦은 계절의 손 건조 관리",
+  "format": "info",
+  "lang": "en",
+  "line": "CLEAR",
+  "host": "clear",
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "CLEAR'S NOTE",
+      "label": "Clear's\nhand notes",
+      "title": "Rough [[hands]] this season?",
+      "body": "Why it happens + 3 small fixes",
+      "character": "characters/clear_happy_wave_01.png",
+      "package": null,
+      "scene": ["soap", "bubbles", "lotion_bottle", "snowflake"],
+      "photo_prompt": "Photorealistic lifestyle photo, vertical 4:5. Close-up of a Korean woman's hands at a bright bathroom sink on a winter morning, gently patting her hands dry with a soft white towel, a plain unbranded hand cream tube and a bar of soap on the counter beside her, faint steam on the window behind, face out of frame. Mint green and cream color palette, soft natural light, clean minimal set, shallow depth of field, editorial beauty magazine style. No text, no logos, no product packaging, no pills or medicine, no before-and-after, no visible skin conditions."
+    },
+    {
+      "type": "list",
+      "kicker": "Sound familiar?",
+      "title": "Sound like [[you]]?",
+      "items": [
+        "Hands feel tight after washing",
+        "Rough knuckles by the evening",
+        "Hand cream seems gone in an hour"
+      ],
+      "speech": "Let's start with the why!",
+      "character": "characters/clear_wink_sit_gummy_01.png",
+      "package": null
+    },
+    {
+      "type": "cause",
+      "kicker": "Reason 01",
+      "title": "Lots of [[washing]]",
+      "body": "Frequent washing, especially with hot water, rinses away the natural oils on your hands. With less oil, moisture slips away faster.",
+      "speech": "Hot water is the sneaky one!",
+      "character": "characters/clear_wink_hold_gummy_01.png",
+      "package": null
+    },
+    {
+      "type": "cause",
+      "kicker": "Reason 02",
+      "title": "Cold, [[dry]] air",
+      "body": "Cold outdoor air and indoor heating are both low in humidity. Your hands are usually uncovered, so they meet that dry air all day.",
+      "speech": "Your hands work hard!",
+      "character": "characters/clear_wink_sit_gummy_01.png",
+      "flip": true,
+      "package": null
+    },
+    {
+      "type": "tips",
+      "kicker": "Just 3 steps",
+      "title": "Clear's [[hand]] habits",
+      "items": [
+        {"head": "Use lukewarm water", "sub": "Skip hot water when you wash"},
+        {"head": "Pat dry, then moisturize", "sub": "Hand cream within a few minutes"},
+        {"head": "Wear gloves outside", "sub": "Cover up on cold, windy days"}
+      ],
+      "character": "characters/clear_wink_hold_gummy_01.png",
+      "flip": true,
+      "package": null
+    },
+    {
+      "type": "summary",
+      "kicker": "Save & check today",
+      "title": "Hand care [[checklist]]",
+      "items": [
+        "Lukewarm water to wash?",
+        "Hand cream after washing?",
+        "Gloves on outside?"
+      ],
+      "note": "Lifestyle tips only. If it lasts, talk to a professional.",
+      "character": "characters/clear_wink_sit_gummy_01.png",
+      "package": null
+    },
+    {
+      "type": "signoff",
+      "title": "Soft hands with [[Clear]]!",
+      "body": "Save, share and tell a friend",
+      "handle": "@melzzi.official",
+      "character": "characters/clear_happy_wave_01.png",
+      "package": null
+    }
+  ],
+  "caption": "Rough hands this season? 🧼\n\nFrequent washing with hot water rinses away your hands' natural oils, and cold air plus indoor heating keep things dry all day.\nTry three small habits starting tonight:\nUse lukewarm water · Pat dry, then moisturize · Wear gloves outside",
+  "cta": "Save this for your next hand wash!\nHow many times did you wash your hands today? Guess and comment 👇",
+  "hashtags": ["#MELZZI", "#멜찌", "#MELZZIroutine", "#handcare", "#dryhands", "#handcream", "#winterskincare", "#winterselfcare", "#selfcareroutine", "#MELZZICLEAR"]
+}
