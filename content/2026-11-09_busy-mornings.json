@@ -1,0 +1,88 @@
+{
+  "id": "2026-11-09_busy-mornings",
+  "topic": "연말 시즌 바쁜 아침 5분 루틴",
+  "format": "info",
+  "lang": "en",
+  "line": "GLOW",
+  "host": "glow",
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "GLOW'S NOTE",
+      "label": "Glow's\nmorning notes",
+      "title": "Busy season, [[5-minute]] mornings",
+      "body": "Glow's quick routine for the holiday rush",
+      "character": "characters/glow_excited_wave_01.png",
+      "package": null,
+      "scene": ["alarm_clock", "sun", "hot_beverage", "sparkles"],
+      "photo_prompt": "Photorealistic lifestyle photo, vertical 4:5. A Korean woman in her 20s at a bright bedroom window on an early winter morning, face out of frame, opening sheer white curtains with one hand while holding a clear glass of water in the other, wearing a cozy knit cardigan, a simple alarm clock on the nightstand and a neatly folded outfit on a chair blurred in the background, gentle sunrise light. Soft peach and cream color palette, soft natural light, clean minimal set, shallow depth of field, editorial beauty magazine style. No text, no logos, no product packaging, no pills or medicine, no before-and-after, no visible skin conditions."
+    },
+    {
+      "type": "list",
+      "kicker": "Sound familiar?",
+      "title": "Mornings like [[this]]?",
+      "items": [
+        "You hit snooze one too many times",
+        "Breakfast is a sip of coffee",
+        "You skip skincare to save time"
+      ],
+      "speech": "Even one? Keep reading!",
+      "character": "characters/glow_happy_hold_heart_01.png",
+      "package": null
+    },
+    {
+      "type": "cause",
+      "kicker": "Reason 01",
+      "title": "[[Late nights]] add up",
+      "body": "Holiday plans and year-end work often push bedtime later. Then the alarm rings before you're ready, and every minute feels short.",
+      "speech": "Busy season is real!",
+      "character": "characters/glow_happy_sit_heart_01.png",
+      "package": null
+    },
+    {
+      "type": "cause",
+      "kicker": "Reason 02",
+      "title": "Deciding [[on the spot]]",
+      "body": "Picking an outfit, breakfast and a skincare order all at once takes time. A morning with no plan tends to feel more rushed.",
+      "speech": "Plan it the night before!",
+      "character": "characters/glow_excited_wave_01.png",
+      "package": null
+    },
+    {
+      "type": "tips",
+      "kicker": "Pick your A, B or C",
+      "title": "Glow's [[5-min]] routine",
+      "items": [
+        {"head": "A. Water before coffee", "sub": "A glass of water as soon as you wake"},
+        {"head": "B. Wash, then moisturize", "sub": "Lukewarm water and one simple layer"},
+        {"head": "C. Open the curtains", "sub": "A minute of daylight and a stretch"}
+      ],
+      "character": "characters/glow_happy_hold_heart_01.png",
+      "package": null
+    },
+    {
+      "type": "summary",
+      "kicker": "Save & check tomorrow",
+      "title": "Morning [[checklist]]",
+      "items": [
+        "Water before coffee?",
+        "Washed and moisturized?",
+        "Curtains open, stretched?"
+      ],
+      "note": "Lifestyle tips only. If it lasts, talk to a professional.",
+      "character": "characters/glow_happy_sit_heart_01.png",
+      "package": null
+    },
+    {
+      "type": "signoff",
+      "title": "Keep shining with [[Glow]]!",
+      "body": "Save, share and tell a friend",
+      "handle": "@melzzi.official",
+      "character": "characters/glow_excited_wave_01.png",
+      "package": null
+    }
+  ],
+  "caption": "Busy season mornings feeling rushed? ✨\n\nLate holiday nights and too many last-minute choices can make every morning feel short.\nTry three small habits starting tomorrow:\nA. Water before coffee · B. Wash, then moisturize · C. Open the curtains and stretch",
+  "cta": "Save this for tomorrow morning!\nWhich step would you never skip: A, B or C?",
+  "hashtags": ["#MELZZI", "#멜찌", "#MELZZIroutine", "#morningroutine", "#5minuteroutine", "#busymornings", "#holidayseason", "#winterroutine", "#selfcareroutine", "#MELZZIGLOW"]
+}
