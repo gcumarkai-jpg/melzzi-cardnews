@@ -1,0 +1,88 @@
+{
+  "id": "2026-11-10_screen-break",
+  "topic": "긴 밤 화면 앞에서 눈 쉬게 하기(20-20-20)",
+  "format": "info",
+  "lang": "en",
+  "line": "CALM",
+  "host": "calm",
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "CALM'S NOTE",
+      "label": "Calm's\nscreen notes",
+      "title": "Long nights? Rest your [[eyes]]",
+      "body": "Calm's easy 20-20-20 habit for screen time",
+      "character": "characters/calm_happy_wave_01.png",
+      "package": null,
+      "scene": ["eye", "mobile_phone", "light_bulb", "night_with_stars"],
+      "photo_prompt": "Photorealistic lifestyle photo, vertical 4:5. A cozy bedroom at night, a Korean woman in her 20s seen from behind sitting on the bed wrapped in a soft knit blanket, gazing out a large window at distant city lights, her phone placed face down on the nightstand beside a small warm bedside lamp, a closed laptop resting on the duvet. Lychee pink and warm white color palette, soft natural light, clean minimal set, shallow depth of field, editorial beauty magazine style. No text, no logos, no product packaging, no pills or medicine, no before-and-after, no visible skin conditions."
+    },
+    {
+      "type": "list",
+      "kicker": "Sound familiar?",
+      "title": "Is this [[you]]?",
+      "items": [
+        "Scrolling in bed long after dark",
+        "Eyes feel tired by late evening",
+        "You forget to blink at the screen"
+      ],
+      "speech": "Let's rest our eyes~",
+      "character": "characters/calm_happy_hold_heart_01.png",
+      "package": null
+    },
+    {
+      "type": "cause",
+      "kicker": "Reason 01",
+      "title": "Eyes stuck [[up close]]",
+      "body": "Phones and laptops keep your eyes focused at the same short distance for hours. Without breaks to look far away, eyes can feel tired.",
+      "speech": "Look up once in a while~",
+      "character": "characters/calm_joy_hug_heart_01.png",
+      "package": null
+    },
+    {
+      "type": "cause",
+      "kicker": "Reason 02",
+      "title": "You [[blink]] less",
+      "body": "When you stare at a screen, you tend to blink less often. Add dry, heated indoor air in winter, and your eyes can feel dry by night.",
+      "speech": "Blinking counts too~",
+      "character": "characters/calm_happy_wave_01.png",
+      "package": null
+    },
+    {
+      "type": "tips",
+      "kicker": "Just 3 steps",
+      "title": "Calm's [[eye break]]",
+      "items": [
+        {"head": "Try the 20-20-20 habit", "sub": "Each 20 min: 20 ft away for 20 sec"},
+        {"head": "Blink slowly on purpose", "sub": "A few slow blinks between tasks"},
+        {"head": "Dim screens after dark", "sub": "Lower brightness, add a warm lamp"}
+      ],
+      "character": "characters/calm_happy_hold_heart_01.png",
+      "package": null
+    },
+    {
+      "type": "summary",
+      "kicker": "Save & check tonight",
+      "title": "Screen [[checklist]]",
+      "items": [
+        "Took a 20-20-20 break?",
+        "Did a few slow blinks?",
+        "Dimmed screens after dark?"
+      ],
+      "note": "Lifestyle tips only. If it lasts, talk to a professional.",
+      "character": "characters/calm_joy_hug_heart_01.png",
+      "package": null
+    },
+    {
+      "type": "signoff",
+      "title": "Rest your eyes with [[Calm]]~",
+      "body": "Save, share and tell a friend",
+      "handle": "@melzzi.official",
+      "character": "characters/calm_happy_wave_01.png",
+      "package": null
+    }
+  ],
+  "caption": "Long night, lots of screen time? 📱\n\nHours of close-up focus and fewer blinks can leave your eyes feeling tired, and dry heated air in winter adds to it.\nTry three small habits starting tonight:\nTry the 20-20-20 habit · Blink slowly on purpose · Dim screens after dark",
+  "cta": "Save this for your next scroll!\nBe honest, how many hours of screen time today? 📱",
+  "hashtags": ["#MELZZI", "#멜찌", "#MELZZIroutine", "#screentime", "#202020rule", "#eyebreak", "#digitalwellness", "#nightroutine", "#winterselfcare", "#MELZZICALM"]
+}
