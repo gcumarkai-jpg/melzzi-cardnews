@@ -1,0 +1,22 @@
+name: blog photos 4:3
+# Make ⑧가 blog/<id>/<n>.png (1536x1024)를 올리면 가운데를 4:3으로 잘라 1440x1080 JPEG(<n>.jpg)로 바꾼다
+on:
+  push:
+    paths: ["blog/**/*.png"]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency: { group: blog-photos, cancel-in-progress: false }
+jobs:
+  crop:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install pillow
+      - run: python3 src/blog_photos.py
+      - run: |
+          git config user.name "MELZZI bot"
+          git config user.email noreply@anthropic.com
+          git add -A blog
+          git diff --cached --quiet || git commit -m "블로그 사진 4:3 변환"
+          for i in 1 2 3; do git pull --rebase && git push && break; sleep 5; done
