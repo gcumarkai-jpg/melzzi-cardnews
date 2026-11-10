@@ -1,8 +1,9 @@
 name: blog photos 4:3
-# Make ⑧가 blog/<id>/<n>.png (1536x1024)를 올리면 가운데를 4:3으로 잘라 1440x1080 JPEG(<n>.jpg)로 바꾼다
+# Make ⑧이 blog/<id>/<nn>.png(1536x1024)를 다 올린 뒤 마지막에 blog/<id>/ready.txt를 올리면,
+# 가운데를 4:3으로 잘라 1440x1080 JPEG(<nn>.jpg)로 바꾸고 png와 ready.txt를 지운다
 on:
   push:
-    paths: ["blog/**/*.png"]
+    paths: ["blog/**/ready.txt"]
   workflow_dispatch:
 permissions:
   contents: write

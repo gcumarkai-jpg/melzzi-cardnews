@@ -1,7 +1,7 @@
 """Center-crop blog photos to 4:3 and save as JPEG.
 
 Usage: python3 src/blog_photos.py   (blog/<id>/<n>.png -> blog/<id>/<n>.jpg 1440x1080, png 삭제)
-Make ⑧ uploads OpenAI images (1536x1024 or 1024x1024) as PNG; GitHub Actions runs this on push.
+Make ⑧ uploads OpenAI images (1536x1024) as PNG, then ready.txt; GitHub Actions runs this on that push.
 """
 from pathlib import Path
 from PIL import Image
@@ -26,6 +26,8 @@ def main():
         crop43(Image.open(png).convert("RGB")).save(png.with_suffix(".jpg"), quality=88, optimize=True, progressive=True)
         png.unlink()
         print("4:3", png.with_suffix(".jpg").relative_to(ROOT))
+    for ready in (ROOT / "blog").glob("*/ready.txt"):
+        ready.unlink()
 
 
 if __name__ == "__main__":
