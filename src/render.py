@@ -122,6 +122,16 @@ def main():
             jp = outdir / f"{n:02d}.jpg"
             page.screenshot(path=str(jp), type="jpeg", quality=92, full_page=False)
             print("rendered", jp)
+        # 블로거용 정사각형 표지 (같은 표지를 1:1 레이아웃으로 다시 그림)
+        sq = browser.new_page(viewport={"width": 1080, "height": 1080})
+        html = tpl.render(s=cover, t=theme, n=1, total=total, line=script["line"], lang=script.get("lang", "ko"), root=ROOT.as_uri(), square=True)
+        hp = outdir / "_html" / "sq_cover.html"
+        hp.write_text(html, encoding="utf-8")
+        sq.goto(hp.as_uri())
+        sq.evaluate("document.fonts.ready")
+        sq.wait_for_load_state("networkidle")
+        sq.screenshot(path=str(outdir / "sq_cover.jpg"), type="jpeg", quality=92, full_page=False)
+        print("rendered", outdir / "sq_cover.jpg")
         browser.close()
 
     if script.get("caption"):   # 영어 게시물: caption + cta + hashtags

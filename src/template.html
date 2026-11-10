@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="{{ lang }}">
+<html lang="{{ lang }}"{% if square %} class="sq"{% endif %}>
 <head>
 <meta charset="utf-8">
 <style>
@@ -67,6 +67,22 @@ html[lang=en] .title { letter-spacing: -0.03em; }
 .cover .text { position: absolute; left: 72px; right: 72px; top: 1060px; }
 .cover .foot, .cover .spark.pop.global, .signoff .spark.pop.global { display: none; }
 .cover .text .body { margin-top: 22px; color: var(--ink); }
+/* square cover (1080x1080) for Blogger */
+html.sq, html.sq body, html.sq .canvas { height: 1080px; }
+html.sq .page { display: none; }
+html.sq .cover .photo, html.sq .cover .scene { right: 64px; top: 150px; width: 470px; height: 640px; border-radius: 230px 230px 44px 44px; }
+html.sq .cover .scene .p0 { width: 330px; left: 60px; top: 190px; }
+html.sq .cover .scene .p1 { width: 150px; left: 18px; top: 60px; }
+html.sq .cover .scene .p2 { width: 170px; right: 16px; top: 420px; }
+html.sq .cover .scene .p3 { width: 110px; right: 44px; top: 90px; }
+html.sq .cover .scene .floor { top: 510px; }
+html.sq .cover .kicker { top: 168px; }
+html.sq .cover .label { top: 262px; width: 360px; font-size: 32px; }
+html.sq .cover .char { left: 96px !important; top: 390px !important; width: 270px !important; }
+html.sq .cover .spark.pop { left: 360px !important; top: 360px !important; }
+html.sq .cover .text { top: 830px; right: 64px; }
+html.sq .cover .title { font-size: 74px; }
+html.sq .cover .text .body { margin-top: 14px; font-size: 32px; }
 
 /* list + summary */
 .stack { position: absolute; left: 72px; right: 72px; top: 196px; }
