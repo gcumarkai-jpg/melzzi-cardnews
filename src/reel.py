@@ -60,8 +60,17 @@ def main():
     for p, d in zip(frames, durs):
         args += ["-framerate", str(FPS), "-loop", "1", "-t", f"{d + FADE:.2f}", "-i", str(p)]
     length = sum(durs) + FADE
-    args += ["-f", "lavfi", "-t", f"{length:.2f}", "-i", "anullsrc=channel_layout=stereo:sample_rate=48000"]
+    music = ROOT / "assets" / "music" / f"{script['line']}.m4a"  # src/make_music.py로 만든 오리지널 음원
+    if music.exists():
+        args += ["-i", str(music)]
+    else:
+        args += ["-f", "lavfi", "-t", f"{length:.2f}", "-i", "anullsrc=channel_layout=stereo:sample_rate=48000"]
     parts, prev, offset = [], "[0:v]", 0.0
+    if music.exists():
+        # 길이에 맞춰 자르고 끝 2초 페이드아웃, 배경음 수준(-16 LUFS 근처)으로
+        parts.append(f"[{total}:a]atrim=0:{length:.2f},asetpts=PTS-STARTPTS,"
+                     f"afade=t=in:d=0.3,afade=t=out:st={length - 2:.2f}:d=2,"
+                     f"loudnorm=I=-16:TP=-1.5:LRA=11,aresample=48000[aout]")
     for i in range(1, total):
         offset += durs[i - 1]
         lab = f"[v{i}]"
@@ -69,7 +78,7 @@ def main():
         prev = lab
     parts.append(f"{prev}format=yuv420p,fps={FPS}[vout]")
     tmp = out / "reel.tmp.mp4"
-    args += ["-filter_complex", ";".join(parts), "-map", "[vout]", "-map", f"{total}:a",
+    args += ["-filter_complex", ";".join(parts), "-map", "[vout]", "-map", "[aout]" if music.exists() else f"{total}:a",
              "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", "-maxrate", "4500k", "-bufsize", "9000k",
              "-profile:v", "high", "-pix_fmt", "yuv420p", "-g", str(FPS * 2),
              "-c:a", "aac", "-b:a", "128k", "-ar", "48000", "-shortest", "-movflags", "+faststart", str(tmp)]

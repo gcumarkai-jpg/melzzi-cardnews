@@ -58,7 +58,7 @@
    - 표지 사진: `covers/<ID>.png` 또는 `covers/<ID>.jpg`가 있으면 `--cover`로 쓴다. 없으면 소품 표지로 만들고 J에 `표지 사진 없음 — 소품 표지로 제작`을 남긴다.
    - `python3 src/render.py content/<ID>.json [--cover covers/<ID>.png]`
    - `python3 src/preview.py out/<ID>`로 만든 미리보기를 직접 열어 보고, 글자 넘침·겹침·잘림이 있으면 대본을 고쳐 다시 렌더링한다.
-   - `python3 src/reel.py out/<ID>` → 9:16 릴스 `out/<ID>/reel.mp4` (같은 7장, 무음). 실패해도 카드뉴스는 계속 진행하고 J에 `릴스 실패: 이유`를 남긴다.
+   - `python3 src/reel.py out/<ID>` → 9:16 릴스 `out/<ID>/reel.mp4` (같은 7장, 라인별 오리지널 배경음악). 실패해도 카드뉴스는 계속 진행하고 J에 `릴스 실패: 이유`를 남긴다.
    - `python3 src/publish.py <ID>` → 출력 JSON의 `urls`, `reel_url`, `caption`을 쓴다.
    - 시트 그 행: H=urls를 쉼표로 연결, I=caption, J=메모(없으면 `소품: ...` 등 짧게), G=`검수 대기`, L=`대기`, U=reel_url, V=`대기`(reel_url이 비면 U·V 비움).
    - Make ④가 캐러셀 게시(20:00) 그날 밤 24:00(자정)에 같은 캡션으로 릴스를 올린다(릴스 탭에만, 피드 그리드 중복 없음).
@@ -88,6 +88,6 @@
 
 - `src/render.py <대본> [--cover 파일] [--check-only]` — 규칙 검사 + 1080×1350 JPEG 7장 + caption.txt (`out/<ID>/`)
 - `src/preview.py out/<ID>` — 7장 한눈에 보기
-- `src/reel.py out/<ID>` — 7장으로 1080×1920 릴스 MP4 (30fps, H.264, 무음 AAC, 약 25초)
+- `src/reel.py out/<ID>` — 7장으로 1080×1920 릴스 MP4 (30fps, H.264, 라인별 오리지널 배경음악 AAC, 약 25초)
 - `src/publish.py <ID>` — `posts/<ID>/`로 복사(reel.mp4 포함), 커밋·푸시, 공개 이미지·릴스 URL 출력
 - 렌더링에는 Playwright(Chromium), Jinja2, Pillow가 필요하다(클라우드 환경에 기본 설치).
