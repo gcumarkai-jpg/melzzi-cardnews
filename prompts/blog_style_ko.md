@@ -13,6 +13,11 @@
 - 끝맺음 순서: 정리 문장 → 캡션과 같은 선택 질문 → "댓글로 여러분의 이야기도 들려주세요! 💕" → "Meet your wellness buddy, MELZZI! 💗" → `*생활 습관 정보예요. 증상이 오래가면 전문가와 상담하세요.*` → 해시태그 한 줄(주제 5~6개 + #웰니스루틴 #MELZZI #멜찌 #멤버이름).
 - 공백 포함 1,500~2,200자. 멤버 이름은 한글(클리어·글로·캄·밸런스).
 
+## 영어 글(블로거)에도 같은 틀
+- 소제목 `## 1. …` 6개, 루틴 소제목 끝에 라인 하트(GLOW·CLEAR 💗/💚, CALM 💜, BALANCE 💚).
+- 도입 문단 끝에 이모지 하나, 팁은 `**(이모지) STEP 1. Short title.** 설명`, 체크리스트는 `✔️ …?` 한 줄씩 띄워서, 그 뒤 "Save this … ! 📌".
+- 끝맺음: 정리 문단 → 선택 질문 → "Tell us in the comments on our Instagram, @melzzi.official! 💕" → "Meet your wellness buddy, MELZZI! 💗" → `*Lifestyle tips only. If it lasts, talk to a professional.*`. 해시태그는 넣지 않는다(블로거는 라벨을 쓴다).
+
 ## 예시 (11/4 입술 글)
 
 점심만 지나면 립스틱이 들뜨고, 퇴근길엔 입꼬리가 당기는 느낌이 드시나요?
