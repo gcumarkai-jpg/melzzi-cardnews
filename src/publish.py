@@ -34,6 +34,8 @@ def main():
         old.unlink()
     for f in imgs:
         shutil.copy(f, dst / f.name)
+    for f in sorted(src.glob("sq_[0-9][0-9].jpg")):  # 블로거용 정사각형 (src/square.py)
+        shutil.copy(f, dst / f.name)
     shutil.copy(src / "caption.txt", dst / "caption.txt")
     reel = src / "reel.mp4"
     if reel.exists():
@@ -47,7 +49,8 @@ def main():
     base = raw_base()
     urls = [f"{base}/posts/{pid}/{f.name}" for f in imgs]
     reel_url = f"{base}/posts/{pid}/reel.mp4" if (dst / "reel.mp4").exists() else ""
-    print(json.dumps({"id": pid, "commit": sha, "urls": urls, "reel_url": reel_url,
+    square_urls = [f"{base}/posts/{pid}/{f.name}" for f in sorted(dst.glob("sq_[0-9][0-9].jpg"))]
+    print(json.dumps({"id": pid, "commit": sha, "urls": urls, "reel_url": reel_url, "square_urls": square_urls,
                       "caption": (dst / "caption.txt").read_text(encoding="utf-8")}, ensure_ascii=False, indent=2))
 
 
