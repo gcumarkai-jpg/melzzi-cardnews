@@ -1,0 +1,90 @@
+{
+  "id": "2026-11-11_morning-daylight",
+  "topic": "해 짧은 계절, 아침 햇빛 쓰는 습관",
+  "format": "info",
+  "lang": "en",
+  "line": "BALANCE",
+  "host": "balance",
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "BALANCE'S NOTE",
+      "label": "Balance's\nmorning light",
+      "title": "Short days? Catch [[morning light]]",
+      "body": "Balance's 10-minute morning daylight habit",
+      "character": "characters/balance_wink_peace_01.png",
+      "package": null,
+      "scene": ["sun", "alarm_clock", "hot_beverage", "footprints"],
+      "photo_prompt": "Photorealistic lifestyle photo, vertical 4:5. A Korean woman in her 20s seen from behind on a quiet tree-lined sidewalk on a crisp late-autumn morning, wearing a cozy knit scarf and wool coat, holding a warm takeaway cup in one hand, low golden sunrise light streaming through bare branches and a few fallen leaves on the path, face out of frame. Berry and dusty pink color palette, soft natural light, clean minimal set, shallow depth of field, editorial beauty magazine style. No text, no logos, no product packaging, no pills or medicine, no before-and-after, no visible skin conditions."
+    },
+    {
+      "type": "list",
+      "kicker": "Sound familiar?",
+      "title": "Sound like [[you]]?",
+      "items": [
+        "Still dark when the alarm rings",
+        "Curtains stay shut all morning",
+        "Feeling groggy until lunchtime"
+      ],
+      "speech": "Let's look at the why!",
+      "character": "characters/balance_excited_hold_gummy_01.png",
+      "package": null
+    },
+    {
+      "type": "cause",
+      "kicker": "Reason 01",
+      "title": "Later, [[dimmer]] mornings",
+      "body": "In late fall, the sun rises later and the light stays soft. Your mornings start in the dark, so waking up can feel slower.",
+      "speech": "The sky's still asleep too!",
+      "character": "characters/balance_happy_hold_gummy_01.png",
+      "package": null
+    },
+    {
+      "type": "cause",
+      "kicker": "Reason 02",
+      "title": "Indoors all [[morning]]",
+      "body": "Commutes, desks and closed curtains keep you inside. Indoor light is much dimmer than daylight, even on a cloudy day.",
+      "speech": "Window seats count, too!",
+      "character": "characters/balance_excited_hold_gummy_01.png",
+      "flip": true,
+      "package": null
+    },
+    {
+      "type": "tips",
+      "kicker": "Just 3 steps",
+      "title": "Balance's [[light plan]]",
+      "items": [
+        {"head": "Open curtains first", "sub": "Right after your alarm goes off"},
+        {"head": "Take a 10-minute walk", "sub": "Morning light, even when it's cloudy"},
+        {"head": "Sip coffee by a window", "sub": "Sit near daylight, not the lamp"}
+      ],
+      "character": "characters/balance_happy_hold_gummy_01.png",
+      "flip": true,
+      "package": null
+    },
+    {
+      "type": "summary",
+      "kicker": "Save & check today",
+      "title": "Daylight [[checklist]]",
+      "items": [
+        "Curtains open on waking?",
+        "10 minutes outside?",
+        "Coffee by the window?"
+      ],
+      "note": "Lifestyle tips only. If it lasts, talk to a professional.",
+      "character": "characters/balance_excited_hold_gummy_01.png",
+      "package": null
+    },
+    {
+      "type": "signoff",
+      "title": "Say hi to the [[sun]]!",
+      "body": "Save, share and tell a friend",
+      "handle": "@melzzi.official",
+      "character": "characters/balance_wink_peace_01.png",
+      "package": null
+    }
+  ],
+  "caption": "Still dark when your alarm goes off? ☀️\n\nLate-fall sunrises come later, and most mornings are spent indoors under dim light.\nTry three small habits starting tomorrow:\nOpen curtains first · Take a 10-minute walk · Sip coffee by a window",
+  "cta": "Save this for tomorrow morning!\nMorning walk or coffee by the window? ☀️",
+  "hashtags": ["#MELZZI", "#멜찌", "#MELZZIroutine", "#morningroutine", "#morningwalk", "#daylight", "#winterhabits", "#winterselfcare", "#healthyhabits", "#MELZZIBALANCE"]
+}
