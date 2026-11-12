@@ -1,0 +1,90 @@
+{
+  "id": "2026-11-12_static-hair",
+  "topic": "난방 속 머리카락 정전기·건조",
+  "format": "info",
+  "lang": "en",
+  "line": "CLEAR",
+  "host": "clear",
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "CLEAR'S NOTE",
+      "label": "Clear's\nhair notes",
+      "title": "Static, flyaway [[hair]] indoors?",
+      "body": "Clear explains why + 3 small fixes",
+      "character": "characters/clear_happy_wave_01.png",
+      "package": null,
+      "scene": ["wind_face", "thermometer", "snowflake", "sparkles"],
+      "photo_prompt": "Photorealistic lifestyle photo, vertical 4:5. A Korean woman in her 20s seen from behind in a warm, heated bedroom on a winter evening, just pulling off a chunky knit beanie so a few strands of her long dark hair float up with static, a small white humidifier releasing soft mist on the dresser beside a wide-tooth wooden comb, frosty window in the background, face out of frame. Mint green and cream color palette, soft natural light, clean minimal set, shallow depth of field, editorial beauty magazine style. No text, no logos, no product packaging, no pills or medicine, no before-and-after, no visible skin conditions."
+    },
+    {
+      "type": "list",
+      "kicker": "Sound familiar?",
+      "title": "Sound like [[you]]?",
+      "items": [
+        "Hair sticks to your sweater",
+        "Flyaways after taking off a hat",
+        "Ends feel dry and rough by night"
+      ],
+      "speech": "Let's start with the why!",
+      "character": "characters/clear_wink_sit_gummy_01.png",
+      "package": null
+    },
+    {
+      "type": "cause",
+      "kicker": "Reason 01",
+      "title": "Dry, [[heated]] air",
+      "body": "Heating warms the room but leaves the air low in humidity. Dry hair holds a static charge more easily, so strands push apart and float up.",
+      "speech": "Dry air is the sneaky one!",
+      "character": "characters/clear_wink_hold_gummy_01.png",
+      "package": null
+    },
+    {
+      "type": "cause",
+      "kicker": "Reason 02",
+      "title": "[[Friction]] all day",
+      "body": "Wool hats, scarves and sweaters rub against your hair all day. All that rubbing builds up static, and a plastic brush can add a bit more.",
+      "speech": "Hats and knits love static!",
+      "character": "characters/clear_wink_sit_gummy_01.png",
+      "flip": true,
+      "package": null
+    },
+    {
+      "type": "tips",
+      "kicker": "Just 3 steps",
+      "title": "Clear's [[static]] habits",
+      "items": [
+        {"head": "Run a humidifier", "sub": "Aim for about 40–60% humidity"},
+        {"head": "Smooth on a little oil", "sub": "A drop on the ends after drying"},
+        {"head": "Swap your brush and hat", "sub": "Wide-tooth comb, smooth-lined hat"}
+      ],
+      "character": "characters/clear_wink_hold_gummy_01.png",
+      "flip": true,
+      "package": null
+    },
+    {
+      "type": "summary",
+      "kicker": "Save & check today",
+      "title": "Static hair [[checklist]]",
+      "items": [
+        "Humidifier on tonight?",
+        "A drop of oil on the ends?",
+        "Comb or brush swapped?"
+      ],
+      "note": "Lifestyle tips only. If it lasts, talk to a professional.",
+      "character": "characters/clear_wink_sit_gummy_01.png",
+      "package": null
+    },
+    {
+      "type": "signoff",
+      "title": "Smooth hair with [[Clear]]!",
+      "body": "Save, share and tell a friend",
+      "handle": "@melzzi.official",
+      "character": "characters/clear_happy_wave_01.png",
+      "package": null
+    }
+  ],
+  "caption": "Static, flyaway hair indoors? ⚡\n\nHeated rooms keep the air dry, and wool hats and sweaters rub against your hair all day, so static builds up fast.\nTry three small habits starting tonight:\nRun a humidifier · Smooth a drop of oil on the ends · Swap to a wide-tooth comb",
+  "cta": "Save this for your next hat day!\nStatic hair: hat or hood season for you? 🧢",
+  "hashtags": ["#MELZZI", "#멜찌", "#MELZZIroutine", "#statichair", "#haircare", "#winterhair", "#hairroutine", "#winterselfcare", "#selfcareroutine", "#MELZZICLEAR"]
+}
