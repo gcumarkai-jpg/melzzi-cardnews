@@ -1,0 +1,88 @@
+{
+  "id": "2026-11-13_night-before",
+  "topic": "연말 모임 전날 밤 준비 루틴",
+  "format": "info",
+  "lang": "en",
+  "line": "GLOW",
+  "host": "glow",
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "GLOW'S NOTE",
+      "label": "Glow's\nparty notes",
+      "title": "Party season: the [[night-before]] routine",
+      "body": "Glow's calm prep for a big day tomorrow",
+      "character": "characters/glow_excited_wave_01.png",
+      "package": null,
+      "scene": ["mirror", "sparkles", "candle", "crescent_moon"],
+      "photo_prompt": "Photorealistic lifestyle photo, vertical 4:5. A Korean woman in her 20s sitting on the edge of a neatly made bed in the evening, face out of frame, hands laying out a simple party outfit and a small clutch bag next to a folded silk scarf, a glass of water and a softly lit candle on the nightstand, warm string lights blurred in the background. Soft peach and cream color palette, soft natural light, clean minimal set, shallow depth of field, editorial beauty magazine style. No text, no logos, no product packaging, no pills or medicine, no before-and-after, no visible skin conditions."
+    },
+    {
+      "type": "list",
+      "kicker": "Sound familiar?",
+      "title": "Big day [[tomorrow]]?",
+      "items": [
+        "You scroll late to pick an outfit",
+        "Dinner is salty takeout",
+        "You're up past midnight, wired"
+      ],
+      "speech": "Even one? Keep reading!",
+      "character": "characters/glow_happy_hold_heart_01.png",
+      "package": null
+    },
+    {
+      "type": "cause",
+      "kicker": "Reason 01",
+      "title": "Last-minute [[decisions]]",
+      "body": "Choosing an outfit, shoes and a bag the night before often turns into a late scroll. Your bedtime slips, and the morning feels rushed.",
+      "speech": "Decide early, sleep sooner!",
+      "character": "characters/glow_happy_sit_heart_01.png",
+      "package": null
+    },
+    {
+      "type": "cause",
+      "kicker": "Reason 02",
+      "title": "A [[busy]] evening",
+      "body": "Salty late dinners, little water and bright screens in bed can leave you feeling puffy and tired the next morning.",
+      "speech": "Let's slow the night down!",
+      "character": "characters/glow_excited_wave_01.png",
+      "package": null
+    },
+    {
+      "type": "tips",
+      "kicker": "Pick your A, B or C",
+      "title": "Glow's [[night-before]] prep",
+      "items": [
+        {"head": "A. Lay out your outfit", "sub": "Pick clothes and bag before dinner"},
+        {"head": "B. Light dinner, water", "sub": "Go easy on salt, sip water early on"},
+        {"head": "C. Simple skincare", "sub": "Cleanse gently and moisturize"}
+      ],
+      "character": "characters/glow_happy_sit_heart_01.png",
+      "package": null
+    },
+    {
+      "type": "summary",
+      "kicker": "Save & check tonight",
+      "title": "Night-before [[checklist]]",
+      "items": [
+        "Outfit laid out?",
+        "Light dinner and water?",
+        "Skincare done, lights low?"
+      ],
+      "note": "Lifestyle tips only. If it lasts, talk to a professional.",
+      "character": "characters/glow_happy_hold_heart_01.png",
+      "package": null
+    },
+    {
+      "type": "signoff",
+      "title": "Keep shining with [[Glow]]!",
+      "body": "Save, share and tell a friend",
+      "handle": "@melzzi.official",
+      "character": "characters/glow_excited_wave_01.png",
+      "package": null
+    }
+  ],
+  "caption": "Big party tomorrow? Start tonight ✨\n\nLast-minute outfit scrolling and a busy, salty evening can push bedtime late and make the morning feel rushed.\nTry three small habits tonight:\nA. Lay out your outfit early · B. Light dinner and water · C. Simple skincare, then lights low",
+  "cta": "Save this for the night before your next party!\nWhat's your must-do the night before a big day? ✨",
+  "hashtags": ["#MELZZI", "#멜찌", "#MELZZIroutine", "#partyseason", "#nightroutine", "#holidayprep", "#eveningroutine", "#selfcarenight", "#winterroutine", "#MELZZIGLOW"]
+}
