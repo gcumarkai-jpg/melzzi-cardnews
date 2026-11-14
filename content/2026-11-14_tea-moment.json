@@ -1,0 +1,88 @@
+{
+  "id": "2026-11-14_tea-moment",
+  "topic": "따뜻한 차 한 잔으로 저녁 쉬어가기",
+  "format": "info",
+  "lang": "en",
+  "line": "CALM",
+  "host": "calm",
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "CALM'S NOTE",
+      "label": "Calm's\ncozy tea time",
+      "title": "Slow your evening with [[tea]]",
+      "body": "Calm's warm cup ritual for chilly nights",
+      "character": "characters/calm_happy_wave_01.png",
+      "package": null,
+      "scene": ["teacup_without_handle", "teapot", "candle", "crescent_moon"],
+      "photo_prompt": "Photorealistic lifestyle photo, vertical 4:5. A cozy evening corner by a window with a dark blue sky outside, the hands of a Korean woman in her 20s wrapped around a warm ceramic cup of herbal tea with gentle steam rising, a small glass teapot and a lit candle on a wooden tray, a soft knit blanket over her lap, face out of frame. Lychee pink and warm white color palette, soft natural light, clean minimal set, shallow depth of field, editorial beauty magazine style. No text, no logos, no product packaging, no pills or medicine, no before-and-after, no visible skin conditions."
+    },
+    {
+      "type": "list",
+      "kicker": "Sound familiar?",
+      "title": "Is this [[you]]?",
+      "items": [
+        "Evenings vanish into your phone",
+        "Dinner, then straight to bed",
+        "Cold nights, no time to pause"
+      ],
+      "speech": "Let's take a little pause~",
+      "character": "characters/calm_happy_hold_heart_01.png",
+      "package": null
+    },
+    {
+      "type": "cause",
+      "kicker": "Reason 01",
+      "title": "No [[pause]] in your day",
+      "body": "Work, dinner, scrolling, bed. When one task runs right into the next, there's no moment that tells you the day is wrapping up.",
+      "speech": "A small break is okay too~",
+      "character": "characters/calm_joy_hug_heart_01.png",
+      "package": null
+    },
+    {
+      "type": "cause",
+      "kicker": "Reason 02",
+      "title": "Cold nights feel [[long]]",
+      "body": "When it gets dark and chilly early, it's easy to fill the evening with screens. A warm, slow ritual gives those long hours a gentle shape.",
+      "speech": "Let's make it cozy instead~",
+      "character": "characters/calm_happy_wave_01.png",
+      "package": null
+    },
+    {
+      "type": "tips",
+      "kicker": "Just 3 steps",
+      "title": "Calm's [[tea]] ritual",
+      "items": [
+        {"head": "Pick a caffeine-free cup", "sub": "Try chamomile, barley or warm water"},
+        {"head": "Set a 10-minute tea time", "sub": "Same time each night, phone aside"},
+        {"head": "Sip slowly, breathe out", "sub": "Hold the warm cup and just pause"}
+      ],
+      "character": "characters/calm_happy_hold_heart_01.png",
+      "package": null
+    },
+    {
+      "type": "summary",
+      "kicker": "Save & check tonight",
+      "title": "Tea time [[checklist]]",
+      "items": [
+        "Caffeine-free cup chosen?",
+        "10 minutes set aside?",
+        "Phone aside while sipping?"
+      ],
+      "note": "Lifestyle tips only. If it lasts, talk to a professional.",
+      "character": "characters/calm_joy_hug_heart_01.png",
+      "package": null
+    },
+    {
+      "type": "signoff",
+      "title": "Cozy cups with [[Calm]]~",
+      "body": "Save, share and tell a friend",
+      "handle": "@melzzi.official",
+      "character": "characters/calm_happy_wave_01.png",
+      "package": null
+    }
+  ],
+  "caption": "Evenings slipping away on your phone? 🍵\n\nWhen work, dinner and scrolling run together, there's no moment to pause, and long, chilly nights make it easy to stay on screens.\nTry three small habits starting tonight:\nPick a caffeine-free cup · Set a 10-minute tea time · Sip slowly and breathe out",
+  "cta": "Save this for tonight!\nTea, hot chocolate or warm water? 🍵",
+  "hashtags": ["#MELZZI", "#멜찌", "#MELZZIroutine", "#teatime", "#cozyseason", "#eveningroutine", "#slowliving", "#herbaltea", "#selfcareroutine", "#MELZZICALM"]
+}
