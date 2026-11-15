@@ -1,0 +1,90 @@
+{
+  "id": "2026-11-15_indoor-stretch",
+  "topic": "추워도 움직이기, 실내 10분 스트레칭",
+  "format": "info",
+  "lang": "en",
+  "line": "BALANCE",
+  "host": "balance",
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "BALANCE'S NOTE",
+      "label": "Balance's\nstretch break",
+      "title": "Too cold out? Try a [[10-minute]] stretch",
+      "body": "Balance's easy indoor stretch routine",
+      "character": "characters/balance_wink_peace_01.png",
+      "package": null,
+      "scene": ["stopwatch", "snowflake", "running_shoe", "sparkles"],
+      "photo_prompt": "Photorealistic lifestyle photo, vertical 4:5. A Korean woman in her 20s in a cozy knit sweater and soft leggings doing a gentle seated side stretch on a yoga mat in a warm, softly lit living room, arms reaching overhead, a window behind her showing a cold, frosty winter morning, a folded blanket and a mug of warm water beside the mat, face turned away and out of focus. Berry and dusty pink color palette, soft natural light, clean minimal set, shallow depth of field, editorial beauty magazine style. No text, no logos, no product packaging, no pills or medicine, no before-and-after, no visible skin conditions."
+    },
+    {
+      "type": "list",
+      "kicker": "Sound familiar?",
+      "title": "Sound like [[you]]?",
+      "items": [
+        "Skipping walks because it's cold",
+        "Curled up on the couch all day",
+        "Shoulders up by your ears"
+      ],
+      "speech": "Let's look at the why!",
+      "character": "characters/balance_excited_hold_gummy_01.png",
+      "package": null
+    },
+    {
+      "type": "cause",
+      "kicker": "Reason 01",
+      "title": "Cold days, [[fewer]] steps",
+      "body": "When it's chilly and dark early, we skip walks and errands. Fewer steps means your body sits still for most of the day.",
+      "speech": "The couch wins in winter!",
+      "character": "characters/balance_happy_hold_gummy_01.png",
+      "package": null
+    },
+    {
+      "type": "cause",
+      "kicker": "Reason 02",
+      "title": "Hunched up from the [[chill]]",
+      "body": "In the cold, we tense up and pull our shoulders in. Add long hours at a desk or on the sofa, and your body can feel stiff.",
+      "speech": "Let those shoulders drop!",
+      "character": "characters/balance_excited_hold_gummy_01.png",
+      "flip": true,
+      "package": null
+    },
+    {
+      "type": "tips",
+      "kicker": "Just 3 steps",
+      "title": "Balance's [[stretch plan]]",
+      "items": [
+        {"head": "Roll your shoulders", "sub": "Ten slow circles, back and forth"},
+        {"head": "Reach up and side bend", "sub": "Hold each side for a few breaths"},
+        {"head": "March in place", "sub": "Two minutes while the kettle boils"}
+      ],
+      "character": "characters/balance_happy_hold_gummy_01.png",
+      "flip": true,
+      "package": null
+    },
+    {
+      "type": "summary",
+      "kicker": "Save & check today",
+      "title": "Stretch [[checklist]]",
+      "items": [
+        "Shoulder rolls done?",
+        "Side stretch on both sides?",
+        "Two minutes of marching?"
+      ],
+      "note": "Lifestyle tips only. If it lasts, talk to a professional.",
+      "character": "characters/balance_excited_hold_gummy_01.png",
+      "package": null
+    },
+    {
+      "type": "signoff",
+      "title": "Stay cozy, keep [[moving]]!",
+      "body": "Save, share and tell a friend",
+      "handle": "@melzzi.official",
+      "character": "characters/balance_wink_peace_01.png",
+      "package": null
+    }
+  ],
+  "caption": "Too cold to go outside today? 🧘\n\nChilly, dark days mean fewer steps, and we tend to hunch up and sit still for hours.\nTry three small habits starting today:\nRoll your shoulders · Reach up and side bend · March in place",
+  "cta": "Save this for your next cozy day in!\nMorning stretch or bedtime stretch? 🧘",
+  "hashtags": ["#MELZZI", "#멜찌", "#MELZZIroutine", "#stretching", "#indoorworkout", "#stretchbreak", "#winterhabits", "#winterselfcare", "#healthyhabits", "#MELZZIBALANCE"]
+}
