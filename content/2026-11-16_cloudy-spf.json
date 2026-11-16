@@ -1,0 +1,90 @@
+{
+  "id": "2026-11-16_cloudy-spf",
+  "topic": "흐린 겨울에도 선크림 바르기",
+  "format": "info",
+  "lang": "en",
+  "line": "CLEAR",
+  "host": "clear",
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "CLEAR'S NOTE",
+      "label": "Clear's\nSPF notes",
+      "title": "Cloudy winter days still need [[SPF]]",
+      "body": "Clear explains why + 3 easy habits",
+      "character": "characters/clear_happy_wave_01.png",
+      "package": null,
+      "scene": ["sun_behind_cloud", "lotion_bottle", "snowflake", "cloud"],
+      "photo_prompt": "Photorealistic lifestyle photo, vertical 4:5. Close-up of a Korean woman in her 20s by a bright window on an overcast winter morning, squeezing a small dot of plain white sunscreen onto the back of her hand, a cozy cream knit sleeve, a mug and folded scarf on the windowsill, soft gray clouds and light snow outside, face out of frame. Mint green and cream color palette, soft natural light, clean minimal set, shallow depth of field, editorial beauty magazine style. No text, no logos, no product packaging, no pills or medicine, no before-and-after, no visible skin conditions."
+    },
+    {
+      "type": "list",
+      "kicker": "Sound familiar?",
+      "title": "Sound like [[you]]?",
+      "items": [
+        "No sun today, so no sunscreen",
+        "SPF stays in the drawer till summer",
+        "Indoors by the window all day"
+      ],
+      "speech": "Let's start with the why!",
+      "character": "characters/clear_wink_sit_gummy_01.png",
+      "package": null
+    },
+    {
+      "type": "cause",
+      "kicker": "Reason 01",
+      "title": "UV gets through [[clouds]]",
+      "body": "Gray skies feel cool and dim, but UV rays still pass through clouds. You don't feel them as heat, so it's easy to skip SPF on cloudy days.",
+      "speech": "Cloudy doesn't mean UV-free!",
+      "character": "characters/clear_wink_hold_gummy_01.png",
+      "package": null
+    },
+    {
+      "type": "cause",
+      "kicker": "Reason 02",
+      "title": "Snow and [[windows]]",
+      "body": "Fresh snow reflects sunlight back up toward your face. And some UV rays come through window glass, so desk and car time near a window adds up.",
+      "speech": "Winter light sneaks in!",
+      "character": "characters/clear_wink_sit_gummy_01.png",
+      "flip": true,
+      "package": null
+    },
+    {
+      "type": "tips",
+      "kicker": "Just 3 steps",
+      "title": "Clear's [[SPF]] habits",
+      "items": [
+        {"head": "Make it the last step", "sub": "After moisturizer, every morning"},
+        {"head": "Use enough", "sub": "Face, ears, neck and back of hands"},
+        {"head": "Reapply when you go out", "sub": "Keep a small tube in your bag"}
+      ],
+      "character": "characters/clear_wink_hold_gummy_01.png",
+      "flip": true,
+      "package": null
+    },
+    {
+      "type": "summary",
+      "kicker": "Save & check today",
+      "title": "Winter SPF [[checklist]]",
+      "items": [
+        "SPF on, even if it's gray?",
+        "Ears and neck covered too?",
+        "A small tube in your bag?"
+      ],
+      "note": "Lifestyle tips only. If it lasts, talk to a professional.",
+      "character": "characters/clear_wink_sit_gummy_01.png",
+      "package": null
+    },
+    {
+      "type": "signoff",
+      "title": "SPF every day with [[Clear]]!",
+      "body": "Save, share and tell a friend",
+      "handle": "@melzzi.official",
+      "character": "characters/clear_happy_wave_01.png",
+      "package": null
+    }
+  ],
+  "caption": "Cloudy winter day? Your SPF still matters ☁️\n\nUV rays pass through clouds, fresh snow reflects light back up, and some UV comes through windows too.\nTry three small habits starting tomorrow morning:\nMake SPF your last step · Cover ears, neck and hands · Keep a small tube in your bag",
+  "cta": "Save this for your next gray morning!\nDo you wear SPF on cloudy days? Yes or no? ☁️",
+  "hashtags": ["#MELZZI", "#멜찌", "#MELZZIroutine", "#sunscreen", "#everydayspf", "#winterskincare", "#skincareroutine", "#morningroutine", "#winterselfcare", "#MELZZICLEAR"]
+}
