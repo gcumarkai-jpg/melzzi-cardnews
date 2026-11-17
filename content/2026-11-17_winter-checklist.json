@@ -1,0 +1,88 @@
+{
+  "id": "2026-11-17_winter-checklist",
+  "topic": "겨울 셀프케어 습관 총정리 체크리스트",
+  "format": "info",
+  "lang": "en",
+  "line": "GLOW",
+  "host": "glow",
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "GLOW'S NOTE",
+      "label": "Glow's\nwinter list",
+      "title": "Your winter [[self-care]] checklist",
+      "body": "Small habits from Glow's notes, in one save",
+      "character": "characters/glow_excited_wave_01.png",
+      "package": null,
+      "scene": ["lotion_bottle", "snowflake", "teacup_without_handle", "sparkles"],
+      "photo_prompt": "Photorealistic lifestyle photo, vertical 4:5. A Korean woman in her 20s sitting cross-legged on a cozy bed by a frosty window on a winter evening, face out of frame, hands holding a pen over a small paper checklist in an open notebook, a mug of warm tea, a simple lip balm tube and a folded knit blanket beside her, soft daylight fading outside. Soft peach and cream color palette, soft natural light, clean minimal set, shallow depth of field, editorial beauty magazine style. No text, no logos, no product packaging, no pills or medicine, no before-and-after, no visible skin conditions."
+    },
+    {
+      "type": "list",
+      "kicker": "Sound familiar?",
+      "title": "Winter [[mode]] on?",
+      "items": [
+        "Lips and hands feel tight",
+        "You sip less water in the cold",
+        "Short days, late nights on screens"
+      ],
+      "speech": "Even one? Let's sort it!",
+      "character": "characters/glow_happy_hold_heart_01.png",
+      "package": null
+    },
+    {
+      "type": "cause",
+      "kicker": "Reason 01",
+      "title": "Cold air, [[warm]] rooms",
+      "body": "Chilly wind outside and heated, dry air inside can leave lips, hands and hair feeling rough. Washing more often adds to it.",
+      "speech": "Moisture is your first step!",
+      "character": "characters/glow_happy_sit_heart_01.png",
+      "package": null
+    },
+    {
+      "type": "cause",
+      "kicker": "Reason 02",
+      "title": "Shorter [[days]]",
+      "body": "Less daylight and colder mornings make it easy to skip water, walks and stretching, while evenings stretch out on screens.",
+      "speech": "Small habits, every day!",
+      "character": "characters/glow_excited_wave_01.png",
+      "package": null
+    },
+    {
+      "type": "tips",
+      "kicker": "Pick your A, B or C",
+      "title": "Glow's [[winter]] basics",
+      "items": [
+        {"head": "A. Lips and hands first", "sub": "Balm and hand cream after washing"},
+        {"head": "B. Warm sips all day", "sub": "Keep a mug of warm water nearby"},
+        {"head": "C. Screens down early", "sub": "Dim lights and wind down by bedtime"}
+      ],
+      "character": "characters/glow_happy_sit_heart_01.png",
+      "package": null
+    },
+    {
+      "type": "summary",
+      "kicker": "Save & check tonight",
+      "title": "Winter habit [[checklist]]",
+      "items": [
+        "SPF on, even if cloudy?",
+        "10 minutes of daylight?",
+        "A quick indoor stretch?"
+      ],
+      "note": "Lifestyle tips only. If it lasts, talk to a professional.",
+      "character": "characters/glow_happy_hold_heart_01.png",
+      "package": null
+    },
+    {
+      "type": "signoff",
+      "title": "Keep shining with [[Glow]]!",
+      "body": "Save, share and tell a friend",
+      "handle": "@melzzi.official",
+      "character": "characters/glow_excited_wave_01.png",
+      "package": null
+    }
+  ],
+  "caption": "Your winter self-care checklist, all in one place ✨\n\nCold wind, dry heated rooms and shorter days make small habits easy to skip.\nTry these starting tonight:\nA. Balm and hand cream after washing · B. Warm sips all day · C. Screens down early\nPlus: SPF on cloudy days · 10 minutes of daylight · a quick indoor stretch",
+  "cta": "Save this checklist for the rest of winter!\nWhich habit are you starting tonight? 👇",
+  "hashtags": ["#MELZZI", "#멜찌", "#MELZZIroutine", "#winterselfcare", "#selfcarechecklist", "#winterroutine", "#dailyhabits", "#selfcareideas", "#cozyseason", "#MELZZIGLOW"]
+}
